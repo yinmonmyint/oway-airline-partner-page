@@ -1,0 +1,33 @@
+.popular-city {
+  width: 100%;
+  height: 450px;
+  max-width: 1170px;
+  margin: 0 auto;
+  /* background-color: rgba(0, 0, 0, 0.144); */
+}
+.city-title {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.citycard {
+  display: flex;
+  justify-content: space-around;
+}
+.inter-domes-title{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.international{
+    font-size: 15px;
+    color:  rgba(78, 30, 210, 0.993);
+    cursor: pointer;
+}
+.domestic{
+    font-size: 15px;
+    color:  rgba(78, 30, 210, 0.993);
+    cursor: pointer;
+}

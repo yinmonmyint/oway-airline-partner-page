@@ -1,0 +1,28 @@
+.city-card {
+  width: 200px;
+  height: 330px;
+  display: flex;
+  flex-wrap: wrap;
+}
+ .city-card:hover .city-image img{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.308), 0 6px 6px rgba(0, 0, 0, 0.377);
+}
+.city-card:hover .title-city {
+  color: blue;
+}
+.city-image {
+  width: 100%;
+  height: 90%;
+}
+.city-image img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.title-city {
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+  color: #242A3A;
+  padding: 10px;
+}
+

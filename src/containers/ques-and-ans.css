@@ -1,0 +1,29 @@
+.app-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.question {
+  padding: 4px;
+  cursor: pointer;
+}
+.answer {
+  background: #f5f5f5;
+  padding: 10px;
+  border-bottom: 1px solid #8dc3e4;
+  text-align: justify;
+  font-size: 14px;
+  color: #505050;
+  line-height: 28px;
+  border-radius: 3px;
+  margin-bottom: 24px;
+}
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0; 
+    height: 0; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #73737369;
+    margin-right: 10px;
+}

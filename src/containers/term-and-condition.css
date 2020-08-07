@@ -1,0 +1,9 @@
+.app-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.term{
+    width: 100%;
+    height: 110px;
+    /* text-align: center; */
+}

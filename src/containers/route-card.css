@@ -1,0 +1,16 @@
+.routecard {
+    background: #0A56BB;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: "Lato",sans-serif; 
+}
+.routecard:hover{
+    box-shadow: 2px 2px 5px orange ; 
+    background-color: orange;   
+}

@@ -1,0 +1,17 @@
+.route-title{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.app-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.background{
+    width: 100%;
+    background-color: rgba(165, 122, 42, 0.123);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
