@@ -1,26 +1,18 @@
-.app-container{
-    max-width: 1170px;
-    margin: 0 auto;
+.aircard {
+  flex: 0 30%;
+  display: flex;
+  margin-right: 50px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
 }
-.card{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 20px;
-    border-radius: 9px;
-    border: 1px solid rgba(0, 0, 0, 0.158);
+.aircard:nth-child(3n) {
+  margin-right: 0;
 }
-.card:nth-child(3){
-    margin-right: 0;
+.aircard:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.card:hover{
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-.name{
-    padding-top: 25px;
-    color: black;
-    font-weight: bold;
-    float: left;
-}
-.logo img{
-    width: 100%;
+.name {
+  color: black;
+  font-weight: bold;
 }

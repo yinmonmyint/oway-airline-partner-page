@@ -10,14 +10,16 @@ class PopularAirline extends Component {
           <div className="app-container">
         <div className="popular-airline">
           <h2>Popular Airlines</h2>
-        </div>
+          </div>
         <div className="airline-card">
         {partner.map((item) => (
           <Card data={item} key={item.id} />
         ))}
+    
       </div>
       </div>
       </div>
+      
     );
   }
 }
