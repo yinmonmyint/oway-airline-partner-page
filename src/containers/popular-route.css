@@ -9,7 +9,6 @@
 }
 .background{
     width: 100%;
-    background-color: rgba(165, 122, 42, 0.123);
     text-align: center;
     display: flex;
     flex-wrap: wrap;

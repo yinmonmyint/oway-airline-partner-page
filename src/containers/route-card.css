@@ -13,4 +13,15 @@
 .routecard:hover{
     box-shadow: 2px 2px 5px orange ; 
     background-color: orange;   
+    text-shadow: 0 1px 1px rgba(0,0,0,0.16);
+}
+.routecard:hover .route-icon{
+    background: url("../assets/images/arrow3.svg");
+}
+.route-icon {
+    background: url("../assets/images/arrow2.svg");
+    width: 15px;
+    height: 12px;
+    margin: 0 5px;
+    display: inline-block;
 }

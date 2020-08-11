@@ -2,7 +2,7 @@
     text-align: center;
 }
 .airline-card{
-    flex-wrap: wrap;
-    display: flex;
+    flex-wrap: wrap; 
+     display: flex;
 }
 

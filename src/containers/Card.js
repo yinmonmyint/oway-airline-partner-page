@@ -5,13 +5,13 @@ class Card extends Component {
   render() {
     return (
       <Link to={`/partner/${this.props.data.link}`} className="aircard">
-          <div className="logo">
-            <img src={require(`../assets/images/${this.props.data.img_url}`)}/>
+        <div className="logo" >
+          <img src={require(`../assets/images/${this.props.data.img_url}`)} width="50px" height="50px"/>
+        </div>
+        <div className="name">
+          {this.props.data.name}
           </div>
-          <div className="name">
-            {this.props.data.name}
-            </div>
-       </Link>
+      </Link>
     );
   }
 }

@@ -1,13 +1,8 @@
 .promo{
-    width: 100%;
-    height: 50px;
     text-align: center;
 }
 .title{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    
+    text-align: center;   
 }
 .oneway{
     font-size: 15px;
@@ -27,5 +22,5 @@
 }
 .promotion-card{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }

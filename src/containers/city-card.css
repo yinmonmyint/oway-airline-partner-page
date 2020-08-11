@@ -1,28 +1,31 @@
 .city-card {
   width: 200px;
-  height: 330px;
-  display: flex;
-  flex-wrap: wrap;
-}
- .city-card:hover .city-image img{
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.308), 0 6px 6px rgba(0, 0, 0, 0.377);
-}
-.city-card:hover .title-city {
-  color: blue;
+  height: 300px;
+  margin: 20px;
 }
 .city-image {
-  width: 100%;
   height: 90%;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: 0.5s all ease-in;
 }
-.city-image img{
-    border-radius: 10px;
-    object-fit: cover;
+.city-card:hover .city-image {
+  transition: 0.5s all ease-out;
+  background-size: 110% 110%;
+  cursor: pointer;
 }
 .title-city {
   text-align: left;
   font-weight: bold;
   font-size: 15px;
-  color: #242A3A;
-  padding: 10px;
+  color: #242a3a;
+  margin-top: 10px;
+  margin-left: 10px;
+  /* padding: 10px; */
 }
-
+.city-card:hover .title-city {
+  color: blue;
+  cursor: pointer;
+}

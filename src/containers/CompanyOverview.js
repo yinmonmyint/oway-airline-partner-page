@@ -26,16 +26,17 @@ class CompanyOverview extends Component {
             ) : (
               <div className="text is-text">
                 {this.props.overview && this.props.overview.text}
-              </div>
+                </div>
             )}
             {this.state.isShow ? (
-              <p onClick={() => this.changeText()}><div className="less">Show less</div></p>
+              <p onClick={() => this.changeText()}><span className="less">Show less</span></p>
             ) : (
-              <p onClick={() => this.changeText()}><div className="more">Show more</div></p>
+              <p onClick={() => this.changeText()}><span className="more">Show more</span></p>
             )}
           </div>
         </div>
       </div>
+      
     );
   }
 }

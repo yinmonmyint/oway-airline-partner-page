@@ -7,7 +7,7 @@ class RouteCard extends Component {
       <div>
         <div className="routecard">
           {this.props.item.from}
-          <span className="dash">-</span>
+          <span className="route-icon"></span>
           {this.props.item.to}
         </div>
       </div>

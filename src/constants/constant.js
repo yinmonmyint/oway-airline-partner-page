@@ -114,6 +114,14 @@ export const partners = [
             fromDate: "3-AUg",
             toDate: "10-Aug",
           },
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "MDY",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
         ],
       },
     },
@@ -240,15 +248,16 @@ export const partners = [
             img_url: "bangkok.jpg",
             name: "Bangkok",
           },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
+          },
         ],
       },
       domestic: {
         name: "Domestic",
         cities: [
-          {
-            img_url: "bagan.jpg",
-            name: "Bagan",
-          },
+          
           {
             img_url: "yangon.jpg",
             name: "Yangon",
@@ -260,6 +269,18 @@ export const partners = [
           {
             img_url: "inle.jpg",
             name: "Inle",
+          },
+          {
+            img_url: "bagan.jpg",
+            name: "Bagan",
+          },
+          {
+            img_url: "mandalay.jpg",
+            name: "Mandalay",
+          },
+          {
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -419,6 +440,14 @@ export const partners = [
             fromDate: "3-AUg",
             toDate: "10-Aug",
           },
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "Meiktila",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
         ],
       },
     },
@@ -524,10 +553,6 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
-          },
-          {
-            img_url: "bangkok.jpg",
-            name: "Bangkok",
           },
         ],
       },
@@ -675,6 +700,14 @@ export const partners = [
       round_trip: {
         name: "Round Trip",
         route: [
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "MDY",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
           {
             title: "30% OFF",
             from: "YGN",
@@ -976,6 +1009,14 @@ export const partners = [
             fromDate: "3-AUg",
             toDate: "10-Aug",
           },
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "MDY",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
         ],
       },
     },
@@ -1137,10 +1178,6 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
-          },
-          {
-            img_url: "bangkok.jpg",
-            name: "Bangkok",
           },
         ],
       },
@@ -1307,7 +1344,15 @@ export const partners = [
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Bagan",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
@@ -1417,10 +1462,6 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
-          },
-          {
-            img_url: "bangkok.jpg",
-            name: "Bangkok",
           },
         ],
       },
@@ -1539,7 +1580,7 @@ export const partners = [
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
@@ -1555,7 +1596,7 @@ export const partners = [
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "BKK",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
@@ -1576,7 +1617,7 @@ export const partners = [
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
@@ -1584,7 +1625,15 @@ export const partners = [
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Inle",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "Singapore",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
@@ -1679,10 +1728,6 @@ export const partners = [
       international: {
         name: "International",
         cities: [
-          {
-            img_url: "bangkok.jpg",
-            name: "Bangkok",
-          },
           {
             img_url: "bangkok.jpg",
             name: "Bangkok",
@@ -1843,7 +1888,7 @@ export const partners = [
         name: "Round Trip",
         route: [
           {
-            title: "30% OFF",
+            title: "40% OFF",
             from: "YGN",
             to: "MDY",
             date: "Date",
@@ -1853,15 +1898,23 @@ export const partners = [
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
           },
           {
-            title: "30% OFF",
+            title: "20% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Korea",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+          },
+          {
+            title: "10% OFF",
+            from: "YGN",
+            to: "Bkk",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
@@ -1971,10 +2024,6 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
-          },
-          {
-            img_url: "bangkok.jpg",
-            name: "Bangkok",
           },
         ],
       },

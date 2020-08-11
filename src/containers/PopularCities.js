@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./popular-cities.css";
 import CityCard from "./CityCard";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 class PopularCities extends Component {
   constructor(props) {
@@ -15,7 +17,7 @@ class PopularCities extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="app-container">
         <div className="popular-city">
           <div className="city-title">
             <h2>
@@ -43,20 +45,39 @@ class PopularCities extends Component {
                 this.props.popular_cities.domestic.name}
             </span>
           </div>
-          {this.state.isInternational ? (
-            <div className="citycard">
-              {this.props.popular_cities &&
-                this.props.popular_cities.international.cities.map(
-                  (item, index) => <CityCard item={item} key={index} />
-                )}
-            </div>
+          { this.state.isInternational ? (
+            <AliceCarousel
+              items={this.props.popular_cities && this.props.popular_cities.international.cities.map(
+                (item, index) => (
+                  <CityCard item={item} key={index} />
+                )
+              )}
+              responsive={{
+                0: {
+                  items: 5,
+                },
+                1024: {
+                  items: 5,
+                },
+              }}
+            ></AliceCarousel>
           ) : (
-            <div className="citycard">
-              {this.props.popular_cities &&
+            <AliceCarousel
+              items={
+                this.props.popular_cities &&
                 this.props.popular_cities.domestic.cities.map((item, index) => (
                   <CityCard item={item} key={index} />
-                ))}
-            </div>
+                ))
+              }
+              responsive={{
+                0: {
+                  items: 5,
+                },
+                1024: {
+                  items: 5,
+                },
+              }}
+            ></AliceCarousel>
           )}
         </div>
       </div>

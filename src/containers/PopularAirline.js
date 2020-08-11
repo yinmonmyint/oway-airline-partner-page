@@ -15,7 +15,6 @@ class PopularAirline extends Component {
         {partner.map((item) => (
           <Card data={item} key={item.id} />
         ))}
-    
       </div>
       </div>
       </div>
