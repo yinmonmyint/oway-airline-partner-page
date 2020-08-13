@@ -1,29 +1,30 @@
-.app-container {
-  max-width: 1170px;
-  margin: 0 auto;
+.qa-card{
+  opacity: 1;
+  border-radius: 5px;
+  background-color: white;  
+  cursor: pointer; 
+  border: 1px solid #D7D7D7;
+  box-shadow:  0 0 6px #00000029;
+  margin-bottom: 10px;
 }
 .question {
-  padding: 4px;
+  padding: 10px;
   cursor: pointer;
+  color: black;
 }
 .answer {
-  background: #f5f5f5;
   padding: 10px;
-  border-bottom: 1px solid #8dc3e4;
+  padding-top: 0;
   text-align: justify;
   font-size: 14px;
   color: #505050;
   line-height: 28px;
-  border-radius: 3px;
-  margin-bottom: 24px;
 }
 .arrow {
+    border: solid rgba(0, 0, 255, 0.774);
+    border-width: 0 2px 2px 0;  
     display: inline-block;
-    vertical-align: middle;
-    width: 0; 
-    height: 0; 
-    border-top: 6px solid transparent;
-    border-bottom: 6px solid transparent;
-    border-left: 6px solid #73737369;
+    padding: 3px;
+    transform: rotate(-45deg);
     margin-right: 10px;
 }

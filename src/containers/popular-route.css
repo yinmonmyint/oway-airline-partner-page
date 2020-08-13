@@ -1,16 +1,29 @@
-.route-title{
-    width: 100%;
-    text-align: center;
-    color: black;
+.route-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #242a3a;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
 }
-.app-container{
-    max-width: 1170px;
-    margin: 0 auto;
+.app-container {
+  max-width: 1170px;
+  margin: 0 auto;
 }
-.background{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.route-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pop-route-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../assets/images/pupular-route-bg.jpg");
+  padding-top: 10px;
+  padding-bottom: 20px;
 }

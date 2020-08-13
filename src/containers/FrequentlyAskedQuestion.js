@@ -6,15 +6,19 @@ class FrequentlyAskedQuestion extends Component {
   render() {
     return (
       <div>
-        <div className="faq">
-          <div className="faq-title">
-            <h2>{this.props.faq && this.props.faq.name}</h2>
-          </div>
-          <div className="askquestion">
-            {this.props.faq &&
-              this.props.faq.qa.map((item, index) => (
-                <QuestionAndAnswer item={item} key={index} />
-              ))}
+        <div className="app-container">
+          <div className="faq">
+            <div className="faq-title">
+              {this.props.faq && this.props.faq.name}
+            </div>
+            <div className="askquestion">
+              <ul>
+                {this.props.faq &&
+                  this.props.faq.qa.map((item, index) => (
+                    <QuestionAndAnswer item={item} key={index} />
+                  ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

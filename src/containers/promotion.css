@@ -1,26 +1,47 @@
-.promo{
-    text-align: center;
+.promo {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #242a3a;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
 }
-.title{
-    text-align: center;   
+.title {
+  text-align: center;
+  background: none;
+  border: none;
+  color: #404040;
+  font-size: 18px;
+  padding: 0;
+  margin-right: 20px;
+  height: 37px;
+  text-align: center;
+  transition: 0.3s all ease-in;
 }
-.oneway{
-    font-size: 15px;
-    color: rgba(78, 30, 210, 0.993);
+.oneway {
+    color: #404040;
+    font-size: 18px;
     cursor: pointer;
+    padding-right: 15px;
 }
-.active{
-    border-bottom: 2px solid orange;
-    padding: 5px;
-    font-weight: bold;
-    color: rgb(30, 114, 210);
+.title .active {
+  border-bottom: 2px solid orange;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  color: #404040;
+  line-height: 38px;
 }
-.round-trip{
-    font-size: 15px;
-    color: rgba(78, 30, 210, 0.993);
+.round-trip {
+    color: #404040;
+    font-size: 18px;
     cursor: pointer;
+    padding-left: 15px; 
 }
-.promotion-card{
-    display: flex;
-    justify-content: space-between;
+.promotion-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }

@@ -1,6 +1,6 @@
 .city-card {
-  width: 200px;
-  height: 300px;
+  width: 170px;
+  height: 320px;
   margin: 20px;
 }
 .city-image {
@@ -23,7 +23,7 @@
   color: #242a3a;
   margin-top: 10px;
   margin-left: 10px;
-  /* padding: 10px; */
+  cursor: pointer;
 }
 .city-card:hover .title-city {
   color: blue;

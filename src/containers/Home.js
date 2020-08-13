@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Router, Link } from "react-router-dom";
 import "./home.css";
 import PopularAirline from "./PopularAirline";
 

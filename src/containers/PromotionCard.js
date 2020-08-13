@@ -6,14 +6,17 @@ class PromotionCard extends Component {
     return (
       <div>
         <div className="promo-card">
-          <div className="promo-title">
-            {this.props.item.title}
-          </div>
-           <div className="from-to">
-            {this.props.item.from}-{this.props.item.to}
-          </div>
+          <div className="from-to">
+            <span>{this.props.item.from}</span>-
+            <span>{this.props.item.to}</span>
+          </div>          
           <div className="date">
-          {this.props.item.date}: {this.props.item.fromDate} to {this.props.item.toDate}
+            {this.props.item.date}: {this.props.item.fromDate} to
+            {this.props.item.toDate}
+          </div>
+          <div className="discount">
+            <span className="dis-title">{this.props.item.discount} :</span>
+            <span className="promo-title">{this.props.item.title}</span>
           </div>
         </div>
       </div>

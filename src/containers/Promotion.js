@@ -22,13 +22,12 @@ class Promotion extends Component {
       <div>
          <div className="app-container">
           <div className="promo">
-            <h2>{this.props.promotion && this.props.promotion.name}</h2>
+            {this.props.promotion && this.props.promotion.name}
             </div>
             <div className="title">
             <span className={this.state.oneway ? 'active':'oneway'} onClick={() => this.changeOneWay()}>
               {this.props.promotion && this.props.promotion.one_way.name}
             </span>
-            &nbsp;|&nbsp;
             <span className={!this.state.oneway? 'active': 'round-trip'} onClick={() => this.changeRoundTrip()}>
               {this.props.promotion && this.props.promotion.round_trip.name}
             </span>

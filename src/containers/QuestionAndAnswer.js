@@ -13,13 +13,11 @@ class QuestionAndAnswer extends Component {
   }
   render() {
     return (
-      <div>
-        <div className="app-container">
-          
+      <li>
+        <div className="qa-card">
           <div className="question" onClick={() => this.changeAnswer()}>
           <i className="arrow"> </i>
             {this.props.item.question}
-           
           </div>
           {this.state.isQuestion ? (
             <div className="answer">{this.props.item.answer}</div>
@@ -27,7 +25,7 @@ class QuestionAndAnswer extends Component {
             <div></div>
           )}
         </div>
-      </div>
+      </li>
     );
   }
 }

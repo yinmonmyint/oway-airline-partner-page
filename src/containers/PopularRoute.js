@@ -5,20 +5,18 @@ import RouteCard from "./RouteCard";
 class PopularRoute extends Component {
   render() {
     return (
-      <div>
-        <div className="route-title">
-          <h2>
-            {this.props.popular_routes && this.props.popular_routes.title}
-          </h2>
-        </div>
+      <div className="pop-route-bg">
         <div className="app-container">
-        <div className="background">
+        <div className="route-title">
+            {this.props.popular_routes && this.props.popular_routes.title}
+        </div>
+        <div className="route-card">
         {this.props.popular_routes && this.props.popular_routes.route.map((item,index) => (
             <RouteCard item={item} key={index} />
           ))}
       </div>
       </div>
-      </div>
+    </div>
     );
   }
 }

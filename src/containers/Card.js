@@ -4,14 +4,20 @@ import { Link } from "react-router-dom";
 class Card extends Component {
   render() {
     return (
-      <Link to={`/partner/${this.props.data.link}`} className="aircard">
-        <div className="logo" >
-          <img src={require(`../assets/images/${this.props.data.img_url}`)} width="50px" height="50px"/>
+      <Link
+        to={`/partner/${this.props.data.link}`}
+        className="aircard"
+        // style={this.props.path == this.props.data.link ? {'display':'none'} : {}}
+      >
+        <div className="logo">
+          <img
+            src={require(`../assets/images/${this.props.data.img_url}`)}
+            width="50px"
+            height="50px"
+          />
         </div>
-        <div className="name">
-          {this.props.data.name}
-          </div>
-      </Link>
+        {/* <div className="name">{this.props.data.name}</div> */}
+       </Link>
     );
   }
 }

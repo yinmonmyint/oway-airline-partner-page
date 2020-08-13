@@ -14,10 +14,10 @@ class CompanyOverview extends Component {
   render() {
     return (
       <div>
-        <div className="app-container">
-          <div className="back">
+        <div className="back">
+          <div className="app-container">
             <div className="overview">
-              <h2>{this.props.overview && this.props.overview.name}</h2>
+              {this.props.overview && this.props.overview.name}
             </div>
             {this.state.isShow ? (
               <div className="text ">
@@ -26,17 +26,26 @@ class CompanyOverview extends Component {
             ) : (
               <div className="text is-text">
                 {this.props.overview && this.props.overview.text}
-                </div>
+              </div>
             )}
-            {this.state.isShow ? (
-              <p onClick={() => this.changeText()}><span className="less">Show less</span></p>
-            ) : (
-              <p onClick={() => this.changeText()}><span className="more">Show more</span></p>
-            )}
+            <div className="more-less">
+              {this.state.isShow ? (
+                <p onClick={() => this.changeText()}>
+                  <span className="less">
+                    <i className="less-arrow"></i>Show less
+                  </span>
+                </p>
+              ) : (
+                <p onClick={() => this.changeText()}>
+                  <span className="more">
+                    <i className="more-arrow"></i>Show more
+                  </span>
+                </p>
+              )}
+            </div>
           </div>
         </div>
       </div>
-      
     );
   }
 }

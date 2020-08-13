@@ -1,8 +1,42 @@
-.popular-airline{
-    text-align: center;
+.popular-airline-body{
+    border-top: 1px dotted rgba(128, 128, 128, 0.61);
+}
+.popular-airline-block{
+    /* text-transform: uppercase;
+    font-size: 25px;
+    color: #242A3A;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+.title-airline{
+    flex: 1;
+    padding: 70px 80px 40px 0;
+}
+.header{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #242A3A;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+.header small{
+    color: #FAA534;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 18px;
+    letter-spacing: 0;
 }
 .airline-card{
-    flex-wrap: wrap; 
-     display: flex;
+     flex: 1;
+    padding: 40px 0;
+    border-right: 1px dashed #bdbdbd;
+    margin-right: 50px;
 }
 

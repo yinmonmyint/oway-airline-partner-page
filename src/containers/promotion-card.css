@@ -4,26 +4,34 @@
   border-radius: 10px;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.158);
+  cursor: pointer;  
 }
 .promo-card:hover{
     box-shadow: 3px 3px 10px rgba(0,0,0,.3);
 }
-.promo-title{
-    color: black;
-    font-weight: bold;
-    font-size: 17px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
-    text-align: center;
-    width: 100%;
-    height: 30px;
-}
 .from-to{
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 } 
 .date{
     font-weight: bold;
     text-align: center;
-    padding: 5px ;
+    padding-bottom: 10px ; 
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.322);
+}
+.discount{
+    padding: 10px;
+}
+.promo-title{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 3px;
+}
+.dis-title{
+    color: black;
+    font-size: 14px;
+    padding-right: 3px;
 }

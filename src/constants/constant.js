@@ -60,6 +60,7 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
@@ -68,6 +69,7 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
@@ -76,14 +78,16 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Singapore",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -92,11 +96,12 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Heho",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
@@ -105,22 +110,25 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -128,7 +136,7 @@ export const partners = [
     overview: {
       name: "Company Overview",
       text:
-        "We believe you should be informed about what kind of personal data we collect and how we use it in our system, both through our website and/or app.By reading this Privacy Policy, you can always make the best decision about the personal data that you share with us. Personal data here refers to any information which are related to an identified or identifiable natural person . By registering to and/ or using the Site, you acknowledge that you have read this Privacy Policy and the Oway Travel Terms of Use and understand their content and consequences, and you agree and give consent to Us for the collection, use, disclosure and processing of your Personal Details accordance with this Privacy Policy and/or the Terms of Use. Further, you acknowledge that every Personal Data that you have provided or will provide is yours to share and is true and accurate From time to time, Oway Travel may revise this Privacy Policy to reflect changes in the laws and regulations, our use practices, the features of our Site and/or advances in technology. If we make revisions that change the way we collector use your Personal Data, those changes will be posted in this Privacy Policy and the effective date will be noted at the beginning of this Privacy Policy. Therefore, you should review this Privacy Policy periodically so that you are up to date on our most current policies and practices. If you do not agree with any changes or modifications to the Privacy Policy, please do not continue using the Site. You will be deemed to have consented to any modification of the Privacy Policy when you use the Site after the effective date of the modification.",
+        "We believe you should be informed about what kind of personal data we collect and how we use it in our system, both through our website and/or app.By reading this Privacy Policy, you can always make the best decision about the personal data that you share with us. Personal data here refers to any information which are related to an identified or identifiable natural person . By registering to and/ or using the Site, you acknowledge that you have read this Privacy Policy and the Oway Travel Terms of Use and understand their content and consequences, and you agree and give consent to Us for the collection, use, disclosure and processing of your Personal Details accordance with this Privacy Policy and/or the Terms of Use. Further, you acknowledge that every Personal Data that you have provided or will provide is yours to share and is true and accurate From time to time, Oway Travel may revise this Privacy Policy to reflect changes in the laws and regulations, our use practices, the features of our Site and/or advances in technology.",
     },
     popular_routes: {
       title: "Popular Routes",
@@ -159,10 +167,38 @@ export const partners = [
         },
         {
           from: "YGN",
-          to: "BGN",
+          to: "Bagan",
         },
         {
           from: "YGN",
+          to: "Korea",
+        },
+        {
+          from: "Yangon",
+          to: "Mandalay",
+        },
+        {
+          from: "Yangon",
+          to: "Heho",
+        },
+        {
+          from: "Yangon",
+          to: "Bagan",
+        },
+        {
+          from: "Yangon",
+          to: "Korea",
+        },
+        {
+          from: "Yangon",
+          to: "Heho",
+        },
+        {
+          from: "Yangon",
+          to: "Hochiminh",
+        },
+        {
+          from: "Yangon",
           to: "Korea",
         },
         {
@@ -175,56 +211,17 @@ export const partners = [
         },
         {
           from: "YGN",
-          to: "BGN",
-        },
-        {
-          from: "YGN",
           to: "Korea",
         },
         {
           from: "Yangon",
           to: "Heho",
-        },
-        {
-          from: "YGN",
-          to: "BGN",
-        },
-        {
-          from: "YGN",
-          to: "Korea",
-        },
-        {
-          from: "Yangon",
-          to: "MDY",
-        },
-        {
-          from: "Yangon",
-          to: "Heho",
-        },
-        {
-          from: "YGN",
-          to: "BGN",
-        },
-        {
-          from: "YGN",
-          to: "Korea",
-        },
-        {
-          from: "Yangon",
-          to: "Heho",
-        },
-        {
-          from: "YGN",
-          to: "BGN",
-        },
-        {
-          from: "YGN",
-          to: "Korea",
         },
       ],
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -257,7 +254,6 @@ export const partners = [
       domestic: {
         name: "Domestic",
         cities: [
-          
           {
             img_url: "yangon.jpg",
             name: "Yangon",
@@ -342,22 +338,49 @@ export const partners = [
       qa: [
         {
           question: "How do I make a booking for Hotels?",
-          answer: "You will receive a confirmation email immediately after submitting your order that will include your Oway Order and Reservation numbers. Within 24 hours of your purchase, we will send you another email with the hotel confirmation number. You can print out the coupon and show it to the hotel upon check in.Internationally, you can use your credit cards to pay us. Our payment facilities are SSL certified and approved by Verisign so your transactions and card securities is ensured.",
+          answer:
+            "You will receive a confirmation email immediately after submitting your order that will include your Oway Order and Reservation numbers. Within 24 hours of your purchase, we will send you another email with the hotel confirmation number. You can print out the coupon and show it to the hotel upon check in.Internationally, you can use your credit cards to pay us. Our payment facilities are SSL certified and approved by Verisign so your transactions and card securities is ensured.",
         },
         {
           question: "How frequent does American Airlines fly its top route?",
-          answer: "The top route for American Airlines has a total of 18 flights per day. Travel from Charlotte to New York with American Airlines!",
+          answer:
+            "The top route for American Airlines has a total of 18 flights per day. Travel from Charlotte to New York with American Airlines!",
         },
         {
           question: "How frequent does American Airlines fly its top route?",
-          answer: "The top route for American Airlines has a total of 18 flights per day. Travel from Charlotte to New York with American Airlines!",
+          answer:
+            "The top route for American Airlines has a total of 18 flights per day. Travel from Charlotte to New York with American Airlines!",
         },
       ],
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
+      description: [
+        {
+          text:
+            "In order to provide you with the best experience when using our system, we may collect, use, disclose, process and protect your personal identifiable information or personal data.",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "From time to time, Oway Travel may revise this Privacy Policy to reflect changes in the laws and regulations, our use practices, the features of our Site and/or advances in technology.",
+        },
+        {
+          text:
+            " Therefore, you should review this Privacy Policy periodically so that you are up to date on our most current policies and practices.",
+        },
+        {
+          text:
+            "If you do not agree with any changes or modifications to the Privacy Policy, please do not continue using the Site.",
+        },
+        {
+          text:
+            " You will be deemed to have consented to any modification of the Privacy Policy when you use the Site after the effective date of the modification.",
+        },
+      ],
     },
     policy: {
       name: "Policy",
@@ -381,35 +404,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Hochiminh",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Indonesia",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -418,35 +445,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Kautthoung",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Heho",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "Meiktila",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -535,6 +566,7 @@ export const partners = [
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -553,6 +585,10 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
+          },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
           },
         ],
       },
@@ -575,48 +611,9 @@ export const partners = [
             img_url: "inle.jpg",
             name: "Inle",
           },
-        ],
-      },
-    },
-    popular_airlines: {
-      name: "Popular Airlines",
-      international: {
-        name: "International",
-        route: [
           {
-            name: "AirAsia",
-            link: "airasia",
-            img_url: "AirAsia_New_Logo.svg",
-          },
-          {
-            name: "AirAsia",
-            link: "airasia",
-            img_url: "AirAsia_New_Logo.svg",
-          },
-          {
-            name: "AirAsia",
-            link: "airasia",
-            img_url: "AirAsia_New_Logo.svg",
-          },
-        ],
-      },
-      domestic: {
-        name: "Domestic",
-        route: [
-          {
-            name: "AirAsia",
-            link: "airasia",
-            img_url: "AirAsia_New_Logo.svg",
-          },
-          {
-            name: "AirAsia",
-            link: "airasia",
-            img_url: "AirAsia_New_Logo.svg",
-          },
-          {
-            name: "AirAsia",
-            link: "airasia",
-            img_url: "AirAsia_New_Logo.svg",
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -626,22 +623,41 @@ export const partners = [
       qa: [
         {
           question: "How can I redeem my ticket?",
-          answer: "E-ticket can be printed out and checked in at the airport counter by showing valid identification or a passport. Paper tickets can be picked up at the airport counter (on your travel date) one hour before your flight time with Oway coupon or a Photo ID. Paper tickets can be delivered to your hotel in Yangon based upon your own request and delivery charge is 5 USD.",
+          answer:
+            "E-ticket can be printed out and checked in at the airport counter by showing valid identification or a passport. Paper tickets can be picked up at the airport counter (on your travel date) one hour before your flight time with Oway coupon or a Photo ID. Paper tickets can be delivered to your hotel in Yangon based upon your own request and delivery charge is 5 USD.",
         },
         {
           question: "How do I update my account information on oway.com.mm?",
-          answer: "Your account can be accessed by clicking on the Account link at the top right corner of the oway.com.mm homepage. Also, this page allows you to manage all the information regarding your e-mail preferences, user name, billing and credit card information.",
+          answer:
+            "Your account can be accessed by clicking on the Account link at the top right corner of the oway.com.mm homepage. Also, this page allows you to manage all the information regarding your e-mail preferences, user name, billing and credit card information.",
         },
         {
           question: "How can we apply for a Visa to Myanmar?",
-          answer: "With electronics visa process, you do not have to visit the Myanmar Embassy to apply for a visa. No submission of documents is required during the application process because the E-visa process from application to approval is completely done online. The process is very straight forward; the applicants just need to fill out the details and submit the payment through a secure payment gateway with a credit card.After successful submission of the application, the applicant will get an acknowledgement letter stating that the visa application process is successful. Within 10 days, visa approval letter will be sent to the applicant through email. The visitor needs t0 out the letter and bring along with a passport to a designated airport. By using electronic visa application, visa application process is a lot easier. Extra time and money could be saved through this process and there is no more hassle with the documents.",
+          answer:
+            "With electronics visa process, you do not have to visit the Myanmar Embassy to apply for a visa. No submission of documents is required during the application process because the E-visa process from application to approval is completely done online. The process is very straight forward; the applicants just need to fill out the details and submit the payment through a secure payment gateway with a credit card.After successful submission of the application, the applicant will get an acknowledgement letter stating that the visa application process is successful. Within 10 days, visa approval letter will be sent to the applicant through email. The visitor needs t0 out the letter and bring along with a passport to a designated airport. By using electronic visa application, visa application process is a lot easier. Extra time and money could be saved through this process and there is no more hassle with the documents.",
         },
       ],
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+      ],
     },
     policy: {
       name: "Policy",
@@ -665,35 +681,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bagan",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bangkok",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Singapore",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -702,35 +722,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Heho",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Mandalay",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -819,6 +843,7 @@ export const partners = [
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -837,6 +862,10 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
+          },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
           },
         ],
       },
@@ -858,6 +887,10 @@ export const partners = [
           {
             img_url: "inle.jpg",
             name: "Inle",
+          },
+          {
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -930,8 +963,24 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
@@ -950,35 +999,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bagan",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bangkok",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Singapore",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -987,35 +1040,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Heho",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Mandalay",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -1160,6 +1217,7 @@ export const partners = [
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -1178,6 +1236,10 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
+          },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
           },
         ],
       },
@@ -1199,6 +1261,10 @@ export const partners = [
           {
             img_url: "inle.jpg",
             name: "Inle",
+          },
+          {
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -1265,8 +1331,24 @@ export const partners = [
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+      ],
     },
     policy: {
       name: "Policy",
@@ -1295,30 +1377,34 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
+            from: "Yangon",
             to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bangkok",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Singapore",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -1327,19 +1413,21 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Heho",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
@@ -1348,14 +1436,16 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
+            from: "Yangon",
             to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -1444,6 +1534,7 @@ export const partners = [
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -1462,6 +1553,10 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
+          },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
           },
         ],
       },
@@ -1483,6 +1578,10 @@ export const partners = [
           {
             img_url: "inle.jpg",
             name: "Inle",
+          },
+          {
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -1546,8 +1645,24 @@ export const partners = [
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+      ],
     },
     policy: {
       name: "Policy",
@@ -1571,64 +1686,30 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "Korea",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "BKK",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-        ],
-      },
-      round_trip: {
-        name: "Round Trip",
-        route: [
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
+            from: "Yangon",
             to: "Bagan",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "Inle",
+            from: "Yangon",
+            to: "Bangkok",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
@@ -1637,6 +1718,48 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+        ],
+      },
+      round_trip: {
+        name: "Round Trip",
+        route: [
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Heho",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Mandalay",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "YGN",
+            to: "Bagan",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Korea",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -1725,6 +1848,7 @@ export const partners = [
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -1743,6 +1867,10 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
+          },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
           },
         ],
       },
@@ -1764,6 +1892,10 @@ export const partners = [
           {
             img_url: "inle.jpg",
             name: "Inle",
+          },
+          {
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -1813,22 +1945,41 @@ export const partners = [
       qa: [
         {
           question: "How frequent does American Airlines fly its top route?",
-          answer: "The top route for American Airlines has a total of 19 flights per day. Travel from Charlotte to New York with American Airlines!",
+          answer:
+            "The top route for American Airlines has a total of 19 flights per day. Travel from Charlotte to New York with American Airlines!",
         },
         {
           question: "How frequent does American Airlines fly its top route?",
-          answer: "The top route for American Airlines has a total of 19 flights per day. Travel from Charlotte to New York with American Airlines!",
+          answer:
+            "The top route for American Airlines has a total of 19 flights per day. Travel from Charlotte to New York with American Airlines!",
         },
         {
           question: "How frequent does American Airlines fly its top route?",
-          answer: "The top route for American Airlines has a total of 19 flights per day. Travel from Charlotte to New York with American Airlines!",
+          answer:
+            "The top route for American Airlines has a total of 19 flights per day. Travel from Charlotte to New York with American Airlines!",
         },
       ],
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+      ],
     },
     policy: {
       name: "Policy",
@@ -1852,35 +2003,39 @@ export const partners = [
         route: [
           {
             title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
+            from: "Yangon",
+            to: "Mandalay",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bagan",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Bangkok",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
             from: "YGN",
-            to: "MDY",
+            to: "Singapore",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
-          },
-          {
-            title: "30% OFF",
-            from: "YGN",
-            to: "MDY",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -1888,12 +2043,22 @@ export const partners = [
         name: "Round Trip",
         route: [
           {
-            title: "40% OFF",
-            from: "YGN",
-            to: "MDY",
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Heho",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
+          },
+          {
+            title: "30% OFF",
+            from: "Yangon",
+            to: "Mandalay",
+            date: "Date",
+            fromDate: "3-AUg",
+            toDate: "10-Aug",
+            discount: "Discount",
           },
           {
             title: "30% OFF",
@@ -1902,22 +2067,16 @@ export const partners = [
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
+            discount: "Discount",
           },
           {
-            title: "20% OFF",
-            from: "YGN",
+            title: "30% OFF",
+            from: "Yangon",
             to: "Korea",
             date: "Date",
             fromDate: "3-AUg",
             toDate: "10-Aug",
-          },
-          {
-            title: "10% OFF",
-            from: "YGN",
-            to: "Bkk",
-            date: "Date",
-            fromDate: "3-AUg",
-            toDate: "10-Aug",
+            discount: "Discount",
           },
         ],
       },
@@ -2006,6 +2165,7 @@ export const partners = [
     },
     popular_cities: {
       title: "Popular Cities",
+      small_title: "most popular places",
       international: {
         name: "International",
         cities: [
@@ -2024,6 +2184,10 @@ export const partners = [
           {
             img_url: "korea.jpg",
             name: "Korea",
+          },
+          {
+            img_url: "hochiminh.jpg",
+            name: "Ho Chi Minh",
           },
         ],
       },
@@ -2045,6 +2209,10 @@ export const partners = [
           {
             img_url: "inle.jpg",
             name: "Inle",
+          },
+          {
+            img_url: "ygn.jpg",
+            name: "Yangon",
           },
         ],
       },
@@ -2108,8 +2276,24 @@ export const partners = [
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
+        },
+      ],
     },
     policy: {
       name: "Policy",

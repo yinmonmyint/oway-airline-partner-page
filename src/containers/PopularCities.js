@@ -18,12 +18,15 @@ class PopularCities extends Component {
   render() {
     return (
       <div className="app-container">
-        <div className="popular-city">
-          <div className="city-title">
-            <h2>
+          <h2 className="city-title">
+            <span>
               {this.props.popular_cities && this.props.popular_cities.title}
-            </h2>
-          </div>
+            </span>
+            <small>
+              {this.props.popular_cities &&
+                this.props.popular_cities.small_title}
+            </small>
+          </h2>         
           <div className="inter-domes-title">
             <span
               className={
@@ -34,10 +37,9 @@ class PopularCities extends Component {
               {this.props.popular_cities &&
                 this.props.popular_cities.international.name}
             </span>
-            &nbsp;|&nbsp;
             <span
               className={
-                !this.state.isInternational ? "active" : "international"
+                !this.state.isInternational ? "active" : "domestic"
               }
               onClick={() => this.changeDomestic()}
             >
@@ -45,19 +47,20 @@ class PopularCities extends Component {
                 this.props.popular_cities.domestic.name}
             </span>
           </div>
-          { this.state.isInternational ? (
+          {this.state.isInternational ? (
             <AliceCarousel
-              items={this.props.popular_cities && this.props.popular_cities.international.cities.map(
-                (item, index) => (
-                  <CityCard item={item} key={index} />
+              items={
+                this.props.popular_cities &&
+                this.props.popular_cities.international.cities.map(
+                  (item, index) => <CityCard item={item} key={index} />
                 )
-              )}
+              }
               responsive={{
                 0: {
-                  items: 5,
+                  items: 2,
                 },
                 1024: {
-                  items: 5,
+                  items: 6,
                 },
               }}
             ></AliceCarousel>
@@ -71,16 +74,15 @@ class PopularCities extends Component {
               }
               responsive={{
                 0: {
-                  items: 5,
+                  items: 6,
                 },
                 1024: {
-                  items: 5,
+                  items: 6,
                 },
               }}
             ></AliceCarousel>
           )}
         </div>
-      </div>
     );
   }
 }

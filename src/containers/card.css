@@ -1,23 +1,23 @@
 .aircard {
-  flex: 0 30%;
+  /* flex: 0 30%; */
   display: flex;
-  margin-right: 50px;
+  /* flex-wrap: wrap ; */
+  /* margin-right: 35px;
   border-radius: 9px;
   margin-bottom: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.158);
+  border: 1px solid rgba(0, 0, 0, 0.158); */
   text-decoration: none;
-  align-items: center;
 }
-.aircard:nth-child(3n) {
+/* .aircard:nth-child(3n) {
   margin-right: 0;
-}
-.aircard:hover {
+} */
+/* .aircard:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-.logo {
+} */
+/* .logo {
   padding: 10px;
-}
-.name {
+} */
+/* .name {
   color: black;
   font-weight: bold;
   padding: 20px;
@@ -26,4 +26,5 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
+  align-items: center;
+} */
