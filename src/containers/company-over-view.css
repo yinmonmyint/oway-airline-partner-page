@@ -40,7 +40,7 @@
   padding: 5px;
 }
 .more-less {
-  /* background: #e4e6e5; */
+  background: #e4e6e5;  
   text-align: center;
   padding-top: 4px;
   display: block;
@@ -54,9 +54,8 @@
   z-index: 1;
   text-transform: capitalize;
   color: #0a56bb;
-  border-radius: 10px;
-  /* border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px; */
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   box-shadow: 0px 2px 1px #c5c5c5;
 }
 .less {
@@ -66,9 +65,8 @@
   z-index: 1;
   text-transform: capitalize;
   color: #0a56bb;
-  border-radius: 10px;
-  /* border-bottom-right-radius: 10px; 
-  border-bottom-left-radius: 10px; */
+  border-bottom-right-radius: 10px; 
+  border-bottom-left-radius: 10px;
   box-shadow: 0px 2px 1px #c5c5c5;
 }
 .less-arrow {

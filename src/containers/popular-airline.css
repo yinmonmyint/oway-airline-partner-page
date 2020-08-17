@@ -33,10 +33,21 @@
     line-height: 18px;
     letter-spacing: 0;
 }
-.airline-card{
+.international-card{
      flex: 1;
     padding: 40px 0;
     border-right: 1px dashed #bdbdbd;
     margin-right: 50px;
 }
-
+.domestic-card{
+    flex: 1;
+    padding: 40px 0;
+}
+.international-card h3{
+    color: #707070;
+    font-size: 18px;
+}
+.domestic-card h3{
+    color: #707070;
+    font-size: 18px;
+}

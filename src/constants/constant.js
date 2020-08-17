@@ -1,45 +1,78 @@
 export const partner = [
   {
-    id: 1,
-    name: "AirAsia",
-    link: "airasia",
-    img_url: "airasia.jpg",
-  },
-  {
-    id: 2,
-    name: "Jetstar",
-    link: "jetstar",
-    img_url: "airasia.jpg",
-  },
-  {
-    id: 3,
-    name: "Nok Air",
-    link: "nokair",
-    img_url: "airasia.jpg",
-  },
-  {
-    id: 4,
-    name: "Thai Airways",
-    link: "thaiairways",
-    img_url: "airasia.jpg",
-  },
-  {
-    id: 5,
-    name: "Golden Myanmar Airline",
-    link: "goldenmyanmarairline",
-    img_url: "airasia.jpg",
-  },
-  {
-    id: 6,
-    name: "Air KBZ",
-    link: "airkbz",
-    img_url: "airasia.jpg",
-  },
-  {
-    id: 7,
-    name: "Air Thanlwin",
-    link: "airthanlwin",
-    img_url: "airasia.jpg",
+    international: {
+      id: 1,
+      title: "International",
+      airline: [
+        {
+          id: 1,
+          name: "AirAsia",
+          link: "airasia",
+          img_url: "airasia.jpg",
+        },
+        {
+          id: 2,
+          name: "Jetstar",
+          link: "jetstar",
+          img_url: "jetstar.jpg",
+        },
+        {
+          id: 3,
+          name: "Nok Air",
+          link: "nokair",
+          img_url: "nokair.jpg",
+        },
+        {
+          id: 4,
+          name: "Thai Airways",
+          link: "thaiairways",
+          img_url: "thiaairasia.jpg",
+        },
+        {
+          id:5,
+          name: "Golden Myanmar Airline",
+          link: "goldenmyanmarairline",
+          img_url: "goldenmyanmar.jpg",
+        }
+      ],
+    },
+ 
+    domestic: {
+      id: 2,
+      title: "Domestic",
+      airline: [
+        {
+          id: 1,
+          name: "AirAsia",
+          link: "airasia",
+          img_url: "airasia.jpg",
+        },
+        {
+          id: 2,
+          name: "Jetstar",
+          link: "jetstar",
+          img_url: "jetstar.jpg",
+        },
+        {
+          id: 3,
+          name: "Nok Air",
+          link: "nokair",
+          img_url: "nokair.jpg",
+        },
+        {
+          id: 4,
+          name: "Thai Airways",
+          link: "thaiairways",
+          img_url: "thiaairasia.jpg",
+        },
+        {
+          id: 5,
+          name: "Golden Myanmar Airline",
+          link: "goldenmyanmarairline",
+          img_url: "goldenmyanmar.jpg",
+        },
+      ],
+    },
   },
 ];
 
@@ -590,6 +623,10 @@ export const partners = [
             img_url: "hochiminh.jpg",
             name: "Ho Chi Minh",
           },
+          {
+            img_url: "korea.jpg",
+            name: "Korea",
+          },
         ],
       },
       domestic: {
@@ -958,11 +995,6 @@ export const partners = [
     },
     terms_and_conditions: {
       name: "Terms & Conditions",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left. As promised all of the actual ticket vouchers were at our hotel in Yangon when we arrived.",
-    },
-    policy: {
-      name: "Policy",
       description: [
         {
           text:
@@ -981,6 +1013,11 @@ export const partners = [
             "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. ",
         },
       ],
+    },
+    policy: {
+      name: "Policy",
+      description:
+        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
