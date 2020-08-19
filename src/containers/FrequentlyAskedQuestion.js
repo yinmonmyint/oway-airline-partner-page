@@ -5,9 +5,8 @@ import QuestionAndAnswer from "./QuestionAndAnswer";
 class FrequentlyAskedQuestion extends Component {
   render() {
     return (
-      <div>
+      <div className="faq block">
         <div className="app-container">
-          <div className="faq">
             <div className="faq-title">
               {this.props.faq && this.props.faq.name}
             </div>
@@ -21,7 +20,6 @@ class FrequentlyAskedQuestion extends Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

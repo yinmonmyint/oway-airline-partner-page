@@ -5,50 +5,60 @@ import PromotionCard from "./PromotionCard";
 class Promotion extends Component {
   constructor(props) {
     super(props);
-    this.state = { oneway: true };
+    this.state = { 
+      isoneway: true ,
+      isroundtrip:false
+    };
   }
   changeRoundTrip() {
     this.setState({
-      oneway: false,
+      isoneway: false,
+      isroundtrip: true
     });
   }
   changeOneWay() {
     this.setState({
-      oneway: true,
+      isoneway: true,
+      isroundtrip: false
     });
   }
   render() {
     return (
-      <div>
+      <div className="promotion block">
          <div className="app-container">
-          <div className="promo">
+          <h2 className="promo">
             {this.props.promotion && this.props.promotion.name}
-            </div>
+            <small>
+              <span>
+              {this.props.promotion && this.props.promotion.small_title}
+              </span>
+            </small>
+            </h2>
             <div className="title">
-            <span className={this.state.oneway ? 'active':'oneway'} onClick={() => this.changeOneWay()}>
+            <span className={this.state.isoneway ? 'active':'oneway'} onClick={() => this.changeOneWay()}>
               {this.props.promotion && this.props.promotion.one_way.name}
             </span>
-            <span className={!this.state.oneway? 'active': 'round-trip'} onClick={() => this.changeRoundTrip()}>
+            <span className={this.state.isroundtrip? 'active': 'round-trip'} onClick={() => this.changeRoundTrip()}>
               {this.props.promotion && this.props.promotion.round_trip.name}
             </span>
             </div>
-            {this.state.oneway ? (
+            {this.state.isoneway ? (
               <div className="promotion-card">
                 {this.props.promotion &&
                   this.props.promotion.one_way.route.map((item, index) => (
-                    <PromotionCard item={item} key={index} />
+                    <PromotionCard item={item} key={index} isroundtrip={this.state.isroundtrip} /> 
                   ))}
               </div>
             ) : (
               <div className="promotion-card">
                 {this.props.promotion &&
                   this.props.promotion.round_trip.route.map((item, index) => (
-                    <PromotionCard item={item} key={index} />
+                    <PromotionCard item={item} key={index} isroundtrip={this.state.isroundtrip}/>
                   ))}
               </div>
             )}
         </div>
-      </div>
+        </div>
     );
   }
 }

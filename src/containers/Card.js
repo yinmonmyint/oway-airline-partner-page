@@ -10,8 +10,8 @@ class Card extends Component {
       >
           <img
             src={require(`../assets/images/${this.props.data.img_url}`)}
-            width="50px"
-            height="50px"
+            width="40px"
+            height="40px"
           />
        </Link>
     );

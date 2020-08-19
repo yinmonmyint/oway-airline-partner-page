@@ -1,21 +1,19 @@
+.airline-block{
+    padding-top: 50px;
+}
 .popular-airline-body{
     border-top: 1px dotted rgba(128, 128, 128, 0.61);
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.61);
 }
-.popular-airline-block{
-    /* text-transform: uppercase;
-    font-size: 25px;
-    color: #242A3A;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 30px; */
+.popular-airline-body .popular-airline-block{
     display: flex;
     justify-content: space-between;
 }
-.title-airline{
+.popular-airline-body .popular-airline-block .title-airline{
     flex: 1;
     padding: 70px 80px 40px 0;
 }
-.header{
+.popular-airline-body .popular-airline-block .title-airline .header{
     text-transform: uppercase;
     font-size: 25px;
     color: #242A3A;
@@ -24,7 +22,7 @@
     margin-bottom: 30px;
     text-align: right;
 }
-.header small{
+.popular-airline-body .popular-airline-block .title-airline .header small{
     color: #FAA534;
     display: block;
     font-size: 15px;
@@ -33,21 +31,18 @@
     line-height: 18px;
     letter-spacing: 0;
 }
-.international-card{
-     flex: 1;
+.popular-airline-body .popular-airline-block .international-card{
+    flex: 1;
     padding: 40px 0;
     border-right: 1px dashed #bdbdbd;
     margin-right: 50px;
 }
-.domestic-card{
+.popular-airline-body .popular-airline-block .international-card h3 , .domestic-card h3{
+    color: #707070;
+    font-weight: normal;
+    font-size: 18px;
+}
+.popular-airline-body .popular-airline-block .domestic-card{
     flex: 1;
     padding: 40px 0;
-}
-.international-card h3{
-    color: #707070;
-    font-size: 18px;
-}
-.domestic-card h3{
-    color: #707070;
-    font-size: 18px;
 }

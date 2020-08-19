@@ -2,23 +2,23 @@
     background: #0A56BB;
     color: #fff;
     display: inline-block;
-    font-size: 15px;
-    padding: 5px 10px;
+    font-size: 17px;
+    padding: 5px 15px;
     border-radius: 5px;
-    margin: 8px;
+    margin: 10px;
     transition: 0.3s;
     cursor: pointer;
-    font-family: "Lato",sans-serif; 
+    font-family: "Lato",sans-serif;
 }
 .routecard:hover{
-    box-shadow: 2px 2px 5px orange ; 
-    background-color: orange;   
+    background: #faa534;
+    box-shadow: 0 0 14px rgba(249,165,51,0.5);
     text-shadow: 0 1px 1px rgba(0,0,0,0.16);
 }
 .routecard:hover .route-icon{
     background: url("../assets/images/arrow3.svg");
 }
-.route-icon {
+.routecard .route-icon {
     background: url("../assets/images/arrow2.svg");
     width: 15px;
     height: 12px;

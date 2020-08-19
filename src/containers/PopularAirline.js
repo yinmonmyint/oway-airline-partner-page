@@ -6,7 +6,7 @@ import { partner } from "../constants/constant";
 class PopularAirline extends Component {
   render() {
     return (
-      <div>
+      <div className="airline-block">
         <div className="popular-airline-body">
           <div className="app-container">
             <div className="popular-airline-block">

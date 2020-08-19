@@ -1,11 +1,7 @@
-.app-container {
-  max-width: 1170px;
-  margin: 0 auto;
+.company-overview {
+  background-color: #e4e6e58c;
 }
-.back {
-  background-color: #e4e6e5;
-}
-.overview {
+.company-overview .overview {
   text-transform: uppercase;
   font-size: 25px;
   color: #242a3a;
@@ -15,77 +11,81 @@
   text-align: center;
   margin-top: 10px;
 }
-.is-text {
-  background-color: white;
+.company-overview .is-text {
+  width: 50%;
+  height: 90px;
   border-radius: 5px;
   text-align: justify;
   font-size: 14px;
   color: #505050;
-  line-height: 28px;
+  line-height: 30px;
   padding: 5px;
   display: block;
-  text-overflow: ellipsis;
-  display: -webkit-box;
+  margin: 0 auto;
+  transition: 1s all ease-out; 
   overflow: hidden;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
-.text {
-  background-color: white;
+.company-overview .text {
+  width: 50%;
+  height: 300px;
+  overflow: hidden;
   text-align: justify;
   border-radius: 5px;
   font-size: 14px;
   color: #505050;
-  line-height: 28px;
+  line-height: 30px;
   padding: 5px;
+  margin: 0 auto;
+  transition: 1s all ease-out;
 }
-.more-less {
-  background: #e4e6e5;  
+.company-overview .more-less {
+  background: #e4e6e50e;  
   text-align: center;
   padding-top: 4px;
   display: block;
   width: 100%;
-  cursor: pointer;
 }
-.more {
-  cursor: pointer;
-  background: #ffffff;
-  padding: 7px 28px;
-  z-index: 1;
-  text-transform: capitalize;
-  color: #0a56bb;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  box-shadow: 0px 2px 1px #c5c5c5;
-}
-.less {
+.company-overview .more-less .more {
   cursor: pointer;
   background: #ffffff;
   padding: 7px 28px;
   z-index: 1;
   text-transform: capitalize;
-  color: #0a56bb;
-  border-bottom-right-radius: 10px; 
-  border-bottom-left-radius: 10px;
+  color: black;
+  border-radius: 50px;
+  border: 2px solid blue;
   box-shadow: 0px 2px 1px #c5c5c5;
+  font-size: 13px;
 }
-.less-arrow {
+.company-overview .more-less .less {
+  cursor: pointer;
+  background: #ffffff;
+  padding: 7px 28px;
+  z-index: 1;
+  text-transform: capitalize;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 50px;
+  box-shadow: 0px 2px 1px #c5c5c5;
+  font-size: 13px;
+}
+.company-overview .more-less .less .less-arrow {
   display: inline-block;
   vertical-align: middle;
   width: 0;
   height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid blue;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid blue;
   margin-right: 10px;
 }
-.more-arrow {
+.company-overview .more-less .more .more-arrow {
   display: inline-block;
   vertical-align: middle;
   width: 0;
   height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid blue;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid blue;
   margin-right: 10px;
 }

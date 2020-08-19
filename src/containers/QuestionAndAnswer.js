@@ -16,7 +16,10 @@ class QuestionAndAnswer extends Component {
       <li>
         <div className="qa-card">
           <div className="question" onClick={() => this.changeAnswer()}>
-          <i className="arrow"> </i>
+            {this.state.isQuestion?
+          <i className="arrow-down"></i>:
+          <i className="arrow-right"></i>
+            }
             {this.props.item.question}
           </div>
           {this.state.isQuestion ? (

@@ -17,6 +17,7 @@ class PopularCities extends Component {
   }
   render() {
     return (
+      <div className="city block">
       <div className="app-container">
           <h2 className="city-title">
             <span>
@@ -82,6 +83,7 @@ class PopularCities extends Component {
               }}
             ></AliceCarousel>
           )}
+        </div>
         </div>
     );
   }

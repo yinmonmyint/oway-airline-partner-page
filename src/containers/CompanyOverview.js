@@ -13,8 +13,8 @@ class CompanyOverview extends Component {
   }
   render() {
     return (
-      <div>
-        <div className="back">
+      <div className="overview block">
+        <div className="company-overview">
           <div className="app-container">
             <div className="overview">
               {this.props.overview && this.props.overview.name}
@@ -24,7 +24,7 @@ class CompanyOverview extends Component {
                 {this.props.overview && this.props.overview.text}
               </div>
             ) : (
-              <div className="text is-text">
+              <div className="is-text">
                 {this.props.overview && this.props.overview.text}
               </div>
             )}
@@ -45,7 +45,7 @@ class CompanyOverview extends Component {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     );
   }
 }

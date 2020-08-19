@@ -29,14 +29,14 @@ export const partner = [
           img_url: "thiaairasia.jpg",
         },
         {
-          id:5,
+          id: 5,
           name: "Golden Myanmar Airline",
           link: "goldenmyanmarairline",
           img_url: "goldenmyanmar.jpg",
-        }
+        },
       ],
     },
- 
+
     domestic: {
       id: 2,
       title: "Domestic",
@@ -83,6 +83,7 @@ export const partners = [
     keyword: "airasia",
     promotion: {
       name: "Promotion",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -91,7 +92,7 @@ export const partners = [
             from: "Yangon",
             to: "Mandalay",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
@@ -100,7 +101,7 @@ export const partners = [
             from: "Yangon",
             to: "Bagan",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
@@ -109,16 +110,16 @@ export const partners = [
             from: "Yangon",
             to: "Bangkok",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
           {
             title: "30% OFF",
-            from: "YGN",
+            from: "Yangon",
             to: "Singapore",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
@@ -128,29 +129,29 @@ export const partners = [
         name: "Round Trip",
         route: [
           {
-            title: "30% OFF",
+            title: "10% OFF",
             from: "Yangon",
             to: "Heho",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
           {
-            title: "30% OFF",
+            title: "15% OFF",
             from: "Yangon",
             to: "Mandalay",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
           {
-            title: "30% OFF",
-            from: "YGN",
+            title: "20% OFF",
+            from: "Yangon",
             to: "Bagan",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
@@ -159,7 +160,7 @@ export const partners = [
             from: "Yangon",
             to: "Korea",
             date: "Date",
-            fromDate: "3-AUg",
+            fromDate: "3-Aug",
             toDate: "10-Aug",
             discount: "Discount",
           },
@@ -173,6 +174,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "Yangon",
@@ -230,30 +232,10 @@ export const partners = [
           from: "Yangon",
           to: "Hochiminh",
         },
-        {
-          from: "Yangon",
-          to: "Korea",
-        },
-        {
-          from: "Yangon",
-          to: "MDY",
-        },
-        {
-          from: "Yangon",
-          to: "Heho",
-        },
-        {
-          from: "YGN",
-          to: "Korea",
-        },
-        {
-          from: "Yangon",
-          to: "Heho",
-        },
       ],
     },
     popular_cities: {
-      title: "Popular Cities",
+      title: "Popular Destination",
       small_title: "most popular places",
       international: {
         name: "International",
@@ -417,13 +399,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "0-1 pieces of luggage are usually permitted per economy class customer on American Airlines flights. This information can vary depending on your flight, so be sure to check your itinerary",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
   {
@@ -432,6 +434,7 @@ export const partners = [
     keyword: "jetstar",
     promotion: {
       name: "PROMOTION",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -522,6 +525,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "YGN",
@@ -698,13 +702,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "0-1 pieces of luggage are usually permitted per economy class customer on American Airlines flights. This information can vary depending on your flight, so be sure to check your itinerary",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
   {
@@ -713,6 +737,7 @@ export const partners = [
     keyword: "nokair",
     promotion: {
       name: "PROMOTION",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -803,6 +828,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "YGN",
@@ -1016,13 +1042,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
   {
@@ -1031,6 +1077,7 @@ export const partners = [
     keyword: "thaiairways",
     promotion: {
       name: "PROMOTION",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -1121,6 +1168,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "YGN",
@@ -1389,13 +1437,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
   {
@@ -1404,6 +1472,7 @@ export const partners = [
     keyword: "goldenmyanmarairline",
     promotion: {
       name: "PROMOTION",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -1494,6 +1563,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "YGN",
@@ -1703,13 +1773,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
   {
@@ -1718,6 +1808,7 @@ export const partners = [
     keyword: "airkbz",
     promotion: {
       name: "PROMOTION",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -1808,6 +1899,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "YGN",
@@ -2020,13 +2112,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
   {
@@ -2035,6 +2147,7 @@ export const partners = [
     keyword: "airthanlwin",
     promotion: {
       name: "PROMOTION",
+      small_title: "enjoy the great savings with us",
       one_way: {
         name: "One Way",
         route: [
@@ -2125,6 +2238,7 @@ export const partners = [
     },
     popular_routes: {
       title: "Popular Routes",
+      small_title: "recommendations from travel experts",
       route: [
         {
           from: "YGN",
@@ -2334,13 +2448,33 @@ export const partners = [
     },
     policy: {
       name: "Policy",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway.",
+        },
+        {
+          text:
+            "We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            "We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic tickets before we left.",
+        },
+      ],
     },
     baggage_and_fees: {
       name: "Baggage & Fees",
-      description:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway. We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic",
+      description: [
+        {
+          text:
+            "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway.",
+        },
+        {
+          text:
+            " We corresponded with Oway via email and their booking request form on their website and paid via credit card for all of our domestic.",
+        },
+      ],
     },
   },
 ];

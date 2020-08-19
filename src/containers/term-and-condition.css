@@ -1,57 +1,57 @@
-.app-container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.container {
-  max-width: 1050px;
-  margin: 0 auto;
-}
 .term-policy-baggage-card {
   width: 100%;
   opacity: 1;
   border-radius: 10px;
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.158);
-  cursor: pointer;
-  margin: 10px;
+  border: 0.9px solid rgba(0, 0, 0, 0.096);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
-.term-header {
+.term-policy-baggage-card .container{
+  max-width: 1070px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.term-policy-baggage-card .term-condition .term-header {
   color: blue;
-  padding-top: 30px;
+  font-size: 17px;
+  padding-top: 40px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.425);
 }
-.description-title {
+.term-policy-baggage-card .term-condition .description-title {
   font-size: 14px;
   text-align: justify;
   line-height: 1.6666;
 }
-.description-title ol {
+.term-policy-baggage-card .term-condition .description-title ol , .policy-description ol , .baggage-description ol {
+  padding-top: 10px;
   padding-left: 15px;
 }
-.policy-header {
+.term-policy-baggage-card .term-condition .description-title li , .policy-description li , .baggage-description li{
+  padding-bottom: 6px;
+}
+.term-policy-baggage-card .policy .policy-header {
   color: blue;
+  font-size: 17px;
   padding-top: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.425);
 }
-.policy-description {
+.term-policy-baggage-card .policy .policy-description {
   font-size: 14px;
   text-align: justify;
   line-height: 1.6666;
 }
-.baggage-header {
+.term-policy-baggage-card .baggage-and-fees .baggage-header {
   color: blue;
+  font-size: 17px;
   padding-top: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.425);
 }
-.baggage-description {
+.term-policy-baggage-card .baggage-and-fees .baggage-description {
   font-size: 14px;
   text-align: justify;
   line-height: 1.6666;
-  padding-bottom: 20px;
 }

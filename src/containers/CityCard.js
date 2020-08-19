@@ -8,12 +8,10 @@ class CityCard extends Component {
         "url(" + require(`../assets/images/${this.props.item.img_url}`) + ")",
     };
     return (
-      <div>
         <div className="city-card">
           <div className="city-image" style={mystyle}></div>
           <div className="title-city">{this.props.item.name}</div>
         </div>
-      </div>
     );
   }
 }

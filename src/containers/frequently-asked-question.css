@@ -1,13 +1,4 @@
-.app-container {
-    max-width: 1170px;
-    margin: 0 auto;
-  }
-.faq{
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-.faq-title{
+.faq .faq-title{
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
@@ -16,11 +7,11 @@
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
-.askquestion{
+.faq .askquestion{
     margin: 0;
     padding: 0;
 }
-.askquestion ul{
+.faq .askquestion ul{
     list-style: none;
     padding: 0;
 }
