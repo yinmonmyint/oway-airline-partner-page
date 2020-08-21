@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Home";
-import './App.css';
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PartnerPage from "./PartnerPage";
 function App() {
@@ -17,5 +17,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

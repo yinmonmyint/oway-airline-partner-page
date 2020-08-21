@@ -1,5 +1,5 @@
 .company-overview {
-  background-color: #e4e6e58c;
+  background: linear-gradient(0deg, #eaeaea, #fff);
 }
 .company-overview .overview {
   text-transform: uppercase;
@@ -22,7 +22,7 @@
   padding: 5px;
   display: block;
   margin: 0 auto;
-  transition: 1s all ease-out; 
+  transition: 0.7s all ease-out; 
   overflow: hidden;
 }
 .company-overview .text {
@@ -36,7 +36,7 @@
   line-height: 30px;
   padding: 5px;
   margin: 0 auto;
-  transition: 1s all ease-out;
+  transition: 0.7s all ease-out;
 }
 .company-overview .more-less {
   background: #e4e6e50e;  

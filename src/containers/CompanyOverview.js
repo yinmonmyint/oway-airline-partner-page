@@ -13,6 +13,7 @@ class CompanyOverview extends Component {
   }
   render() {
     return (
+      <div id="overview">
       <div className="overview block">
         <div className="company-overview">
           <div className="app-container">
@@ -44,6 +45,7 @@ class CompanyOverview extends Component {
               )}
             </div>
           </div>
+        </div>
         </div>
         </div>
     );

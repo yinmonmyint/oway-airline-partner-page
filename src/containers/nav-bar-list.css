@@ -1,0 +1,84 @@
+.reactcomp-anchor-nav {
+  display: block;
+  background: rgba(0, 0, 0, 0.164);
+}
+.nav-bar-box {
+  height: 86px;
+}
+.nav-bar-block {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nav-bar-wrapper {
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in;
+}
+.nav-text:hover {
+  color: blue;
+}
+.nav-bar-list {
+  max-width: 1170px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+.reactcomp-anchor-nav .nav-bar-box .nav-bar-wrapper li,
+ul {
+  list-style: none;
+  display: list-item;
+}
+.nav-bar-li,
+.active {
+  flex: 1 1;
+  position: relative;
+  background: #fff;
+}
+
+.nav-bar-href {
+  display: block;
+  padding: 24px 0 22px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  background: #fff;
+}
+.nav-bar-gap-wrapper {
+  padding: 0 12px;
+  box-sizing: border-box;
+  border-right: 1px solid #dadfe6;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.nav-bar-gap-wrapper:last-child {
+  border-right: 1px solid #fff;
+}
+.nav-bar-li.active {
+  border-bottom: 2px solid #287dfa;
+}
+.nav-bar-wrapper .nav-bar-list .active .nav-bar-href {
+  color: blue;
+}
+
+.isfixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+  transition: 0.3s all ease-in;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+  background: linear-gradient(0deg, #eaeaea8c, rgba(255, 255, 255, 0.295));
+}

@@ -1,6 +1,7 @@
-.title{
+.partner-title{
     width: 100%;
     height: 50px;
     color: blue;
     text-align: center;
+    background: rgba(128, 128, 128, 0.308);
 }

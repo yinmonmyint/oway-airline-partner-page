@@ -10,6 +10,7 @@ import FrequentlyAskedQuestion from "./FrequentlyAskedQuestion";
 import TermsAndCondition from "./TermsAndCondition";
 import Footer from "./Footer";
 import PopularAirline from "./PopularAirline";
+import NavBarList from "./NavBarList";
 
 
 class PartnerPage extends Component {
@@ -26,6 +27,7 @@ class PartnerPage extends Component {
     return (
       <div> 
         <Title name={this.state.name} />
+        <NavBarList />
         <CompanyOverview overview={this.state.overview} />
         <FrequentlyAskedQuestion faq={this.state.faq} />
         <Promotion promotion={this.state.promotion} />
