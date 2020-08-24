@@ -5,6 +5,7 @@
   background-color: white;
   border: 0.9px solid rgba(0, 0, 0, 0.096);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding-bottom: 40px;
 }
 .term-policy-baggage-card .container{
   max-width: 1070px;

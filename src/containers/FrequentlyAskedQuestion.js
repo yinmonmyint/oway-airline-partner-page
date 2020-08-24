@@ -6,7 +6,8 @@ class FrequentlyAskedQuestion extends Component {
   constructor(props){
     super(props);
     this.state={
-      currentValue:0
+      currentValue:0,
+      height: 0
     }
   }
   render() {
@@ -22,7 +23,7 @@ class FrequentlyAskedQuestion extends Component {
                 {this.props.faq &&
                   this.props.faq.qa.map((item, index) => (
                     <QuestionAndAnswer item={item} key={index} name={index} call={(name)=>this.setState({currentValue : name})}
-                     currentValue={this.state.currentValue}/>
+                     currentValue={this.state.currentValue} height={this.state.height}/>
                   ))}
               </ul>
             </div>

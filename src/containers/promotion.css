@@ -18,13 +18,13 @@
   height: 37px;
   text-align: center;
   transition: 0.3s all ease-in;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 .title .oneway {
-    color: #404040;
-    font-size: 18px;
-    cursor: pointer;
-    padding-right: 15px;
+  color: #404040;
+  font-size: 18px;
+  cursor: pointer;
+  padding-right: 15px;
 }
 .title .active {
   border-bottom: 2px solid orange;
@@ -36,17 +36,17 @@
   line-height: 38px;
 }
 .title .round-trip {
-    color: #404040;
-    font-size: 18px;
-    cursor: pointer;
-    padding-left: 15px; 
+  color: #404040;
+  font-size: 18px;
+  cursor: pointer;
+  padding-left: 15px;
 }
 .promotion-card {
   display: flex;
   justify-content: space-between;
 }
-.promo small{
-  color: #FAA534;
+.promo small {
+  color: #faa534;
   display: block;
   font-size: 15px;
   font-weight: 500;

@@ -11,23 +11,8 @@
   text-align: center;
   margin-top: 10px;
 }
-.company-overview .is-text {
-  width: 50%;
-  height: 90px;
-  border-radius: 5px;
-  text-align: justify;
-  font-size: 14px;
-  color: #505050;
-  line-height: 30px;
-  padding: 5px;
-  display: block;
-  margin: 0 auto;
-  transition: 0.7s all ease-out; 
-  overflow: hidden;
-}
 .company-overview .text {
-  width: 50%;
-  height: 300px;
+  width: 80%;
   overflow: hidden;
   text-align: justify;
   border-radius: 5px;
@@ -36,7 +21,7 @@
   line-height: 30px;
   padding: 5px;
   margin: 0 auto;
-  transition: 0.7s all ease-out;
+  transition: 0.5s all ease-out;
 }
 .company-overview .more-less {
   background: #e4e6e50e;  
@@ -45,31 +30,19 @@
   display: block;
   width: 100%;
 }
-.company-overview .more-less .more {
+.company-overview .more-less .more-or-less{
+  width: 15%;
   cursor: pointer;
   background: #ffffff;
   padding: 7px 28px;
-  z-index: 1;
-  text-transform: capitalize;
+  margin-left: 40%;
   color: black;
   border-radius: 50px;
   border: 2px solid blue;
   box-shadow: 0px 2px 1px #c5c5c5;
-  font-size: 13px;
+  font-size: 13px;  
 }
-.company-overview .more-less .less {
-  cursor: pointer;
-  background: #ffffff;
-  padding: 7px 28px;
-  z-index: 1;
-  text-transform: capitalize;
-  color: black;
-  border: 2px solid blue;
-  border-radius: 50px;
-  box-shadow: 0px 2px 1px #c5c5c5;
-  font-size: 13px;
-}
-.company-overview .more-less .less .less-arrow {
+.company-overview .more-less .less-arrow{
   display: inline-block;
   vertical-align: middle;
   width: 0;
@@ -79,7 +52,7 @@
   border-bottom: 5px solid blue;
   margin-right: 10px;
 }
-.company-overview .more-less .more .more-arrow {
+.company-overview .more-less .more-arrow {
   display: inline-block;
   vertical-align: middle;
   width: 0;

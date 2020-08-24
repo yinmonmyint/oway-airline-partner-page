@@ -170,7 +170,7 @@ export const partners = [
     overview: {
       name: "Company Overview",
       text:
-        "We believe you should be informed about what kind of personal data we collect and how we use it in our system, both through our website and/or app.By reading this Privacy Policy, you can always make the best decision about the personal data that you share with us. Personal data here refers to any information which are related to an identified or identifiable natural person . By registering to and/ or using the Site, you acknowledge that you have read this Privacy Policy and the Oway Travel Terms of Use and understand their content and consequences, and you agree and give consent to Us for the collection, use, disclosure and processing of your Personal Details accordance with this Privacy Policy and/or the Terms of Use. Further, you acknowledge that every Personal Data that you have provided or will provide is yours to share and is true and accurate From time to time, Oway Travel may revise this Privacy Policy to reflect changes in the laws and regulations, our use practices, the features of our Site and/or advances in technology.",
+        "By reading this Privacy Policy, you can always make the best decision about the personal data that you share with us. Personal data here refers to any information which are related to an identified or identifiable natural person . By registering to and/ or using the Site, you acknowledge that you have read this Privacy Policy and the Oway Travel Terms of Use and understand their content and consequences, and you agree and give consent to Us for the collection, use, disclosure and processing of your Personal Details accordance with this Privacy Policy and/or the Terms of Use. Further, you acknowledge that every Personal Data that you have provided or will provide is yours to share and is true and accurate From time to time, Oway Travel may revise this Privacy Policy to reflect changes in the laws and regulations, our use practices, the features of our Site and/or advances in technology.",
     },
     popular_routes: {
       title: "Popular Routes",
@@ -194,18 +194,18 @@ export const partners = [
         },
         {
           from: "Yangon",
-          to: "MDY",
+          to: "Mandalay",
         },
         {
           from: "Yangon",
           to: "Heho",
         },
         {
-          from: "YGN",
+          from: "Yangon",
           to: "Bagan",
         },
         {
-          from: "YGN",
+          from: "Yangon",
           to: "Korea",
         },
         {
@@ -824,7 +824,7 @@ export const partners = [
     overview: {
       name: "Company Overview",
       text:
-        "My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through OwayMy family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway",
+        "By reading this Privacy Policy, you can always make the best decision about the personal data that you share with us. Personal data here refers to any information which are related to an identified or identifiable natural person . By registering to and/ or using the Site, you acknowledge that you have read this Privacy Policy and the Oway Travel Terms of Use and understand their content and consequences, and you agree and give consent to Us for the collection, use, disclosure and processing of your Personal Details accordance with this Privacy Policy and/or the Terms of Use. Further, you acknowledge that every Personal Data that you have provided or will provide is yours to share and is true and accurate From time to time, Oway Travel may revise this Privacy Policy to reflect changes in the laws and regulations, our use practices, the features of our Site and/or advances in technology.My family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through OwayMy family of 4 adults is just back from a trip to Myanmar and we were very pleased with the services of Oway. We planned most of the trip ourselves but booked all of our domestic flights through Oway",
     },
     popular_routes: {
       title: "Popular Routes",

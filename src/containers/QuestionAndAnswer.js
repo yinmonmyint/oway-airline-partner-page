@@ -6,7 +6,7 @@ class QuestionAndAnswer extends Component {
     return (
       <li
         className={
-          this.props.currentValue == this.props.name ? "isactive" : "notactive"
+          this.props.currentValue == this.props.name ? "isactive" : "notactive" 
         }
         onClick={() => this.props.call(this.props.name)}
       >

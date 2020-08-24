@@ -1,18 +1,20 @@
 .city-card {
-  width: 92%;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .city-card .city-image {
-  height: 280px;
+  height: 290px;
   border-radius: 10px;
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  transition: 0.5s all ease-in;
+  transition: 0.3s all ease-in;
 }
 .city-card:hover .city-image {
-  transition: 0.5s all ease-out;
+  transition: 0.3s all ease-out;
   background-size: 110% 110%;
   cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.28);
 }
 .city-card .title-city {
   font-size: 15px;
