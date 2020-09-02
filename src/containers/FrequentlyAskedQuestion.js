@@ -3,18 +3,17 @@ import "./frequently-asked-question.css";
 import QuestionAndAnswer from "./QuestionAndAnswer";
 
 class FrequentlyAskedQuestion extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={
-      currentValue:0,
-      height: 0
-    }
+    this.state = {
+      currentValue: 0,
+    };
   }
   render() {
     return (
       <div id="faq">
-      <div className="faq block">
-        <div className="app-container">
+        <div className="faq block">
+          <div className="app-container">
             <div className="faq-title">
               {this.props.faq && this.props.faq.name}
             </div>
@@ -22,14 +21,20 @@ class FrequentlyAskedQuestion extends Component {
               <ul>
                 {this.props.faq &&
                   this.props.faq.qa.map((item, index) => (
-                    <QuestionAndAnswer item={item} key={index} name={index} call={(name)=>this.setState({currentValue : name})}
-                     currentValue={this.state.currentValue} height={this.state.height}/>
+                    <QuestionAndAnswer
+                      item={item}
+                      key={index}
+                      name={index}
+                      call={(name) => this.setState({ currentValue: name })}
+                      currentValue={this.state.currentValue}
+                      height={this.state.height}
+                    />
                   ))}
               </ul>
             </div>
           </div>
         </div>
-        </div>
+      </div>
     );
   }
 }

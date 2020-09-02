@@ -1,11 +1,9 @@
 .notactive{
-  height: 60px;
   overflow: hidden;
   opacity: 1;
   border-radius: 5px;
   background-color: white;
   cursor: pointer;
-  /* border: 1px solid #d7d7d7; */
   box-shadow: 0 0 6px #00000029;
   margin-bottom: 10px;
   transition: 0.3s all ease-in;

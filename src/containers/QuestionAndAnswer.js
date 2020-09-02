@@ -2,11 +2,19 @@ import React, { Component } from "react";
 import "./ques-and-ans.css";
 
 class QuestionAndAnswer extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     // isShows: false,
+  //     height: 60,
+  //     moreHeight: 0,
+  //   };
+  // }
   render() {
     return (
       <li
         className={
-          this.props.currentValue == this.props.name ? "isactive" : "notactive" 
+          this.props.currentValue == this.props.name ? "isactive" : "notactive"
         }
         onClick={() => this.props.call(this.props.name)}
       >
@@ -21,4 +29,5 @@ class QuestionAndAnswer extends Component {
     );
   }
 }
+
 export default QuestionAndAnswer;
