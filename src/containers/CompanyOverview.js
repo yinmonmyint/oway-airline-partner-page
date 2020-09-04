@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./company-over-view.css";
+// import { Button } from 'antd';
+import { CaretUpOutlined } from '@ant-design/icons';
+import {CaretDownOutlined } from '@ant-design/icons';
 
 class CompanyOverview extends Component {
   constructor(props) {
@@ -41,14 +44,10 @@ class CompanyOverview extends Component {
                   }}
                 ></p>
               </div>
-              <div className="more-less">
+              <div className="more-less" >
                 {this.state.moreHeight > this.state.height && (
                   <p className="more-or-less" onClick={() => this.changeText()}>
-                    <i
-                      className={
-                        this.state.isShow ? "less-arrow" : "more-arrow"
-                      }
-                    ></i>
+                    {this.state.isShow ? <CaretUpOutlined style={{color:'blue', paddingRight:15}}/> : <CaretDownOutlined style={{color:'blue' , paddingRight:15}}/>}
                     {this.state.isShow ? "Show Less" : "Show More"}
                   </p>
                 )}

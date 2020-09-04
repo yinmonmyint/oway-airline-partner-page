@@ -1,19 +1,18 @@
 import React, { Component } from "react";
 import "./ques-and-ans.css";
+import { Collapse } from "antd";
+
+const { Panel } = Collapse;
+
+function callback(key) {
+  console.log(key);
+}
 
 class QuestionAndAnswer extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     // isShows: false,
-  //     height: 60,
-  //     moreHeight: 0,
-  //   };
-  // }
   render() {
     return (
-      <li
-        className={
+      <li>
+        {/* className={
           this.props.currentValue == this.props.name ? "isactive" : "notactive"
         }
         onClick={() => this.props.call(this.props.name)}
@@ -24,7 +23,17 @@ class QuestionAndAnswer extends Component {
             {this.props.item.question} <i className="arrow-right"></i>
           </div>
           <div className="answer">{this.props.item.answer}</div>
-        </div>
+        </div>  */}
+        <Collapse
+          onChange={callback}
+          expandIconPosition="right"
+          className="ques-and-ans-collapse"
+          defaultActiveKey="1"
+        >
+          <Panel header={this.props.item.question}>
+            <p>{this.props.item.answer}</p>
+          </Panel>
+        </Collapse>
       </li>
     );
   }

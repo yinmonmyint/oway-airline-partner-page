@@ -53,7 +53,7 @@ class TermsAndCondition extends Component {
               </span>
             </div>
           </div>
-        </div>
+          </div>
       </div>
       </div>
     );

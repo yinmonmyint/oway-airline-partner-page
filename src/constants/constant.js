@@ -366,6 +366,11 @@ export const partners = [
           answer:
             "The top route for American Airlines has a total of 18 flights per day. Travel from Charlotte to New York with American Airlines!",
         },
+        {
+          question: "How do I make a booking for Hotels?",
+          answer:
+            "You will receive a confirmation email immediately after submitting your order that will include your Oway Order and Reservation numbers. Within 24 hours of your purchase, we will send you another email with the hotel confirmation number. You can print out the coupon and show it to the hotel upon check in.Internationally, you can use your credit cards to pay us. Our payment facilities are SSL certified and approved by Verisign so your transactions and card securities is ensured.",
+        },
       ],
     },
     terms_and_conditions: {

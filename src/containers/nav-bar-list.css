@@ -2,9 +2,9 @@
   display: block;
   background: rgba(0, 0, 0, 0.164);
 }
-.nav-bar-box {
-  height: 86px;
-}
+/* .nav-bar-box {
+  height: 80px;
+} */
 .nav-bar-block {
   max-width: 1170px;
   margin: 0 auto;
@@ -81,4 +81,7 @@ ul {
   transition: 0.3s all ease-in;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
   background: linear-gradient(0deg, #eaeaea8c, rgba(255, 255, 255, 0.295));
+}
+.nav-bar{
+  width: 100px;
 }

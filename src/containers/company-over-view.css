@@ -23,7 +23,23 @@
   margin: 0 auto;
   transition: 0.5s all ease-out;
 }
-.company-overview .more-less {
+.company-overview .more-less { 
+  text-align: center;
+  padding-top: 10px;
+}
+.company-overview .more-less .more-or-less{
+  width: 15%;
+  cursor: pointer;
+  background: white;
+  padding: 7px 28px;
+  margin-left: 40%;
+  color: black;
+  border-radius: 50px;
+  border: 2px solid blue;
+  box-shadow: 0px 2px 1px #c5c5c5;
+  font-size: 13px;  
+}
+/* .company-overview .more-less {
   background: #e4e6e50e;  
   text-align: center;
   padding-top: 4px;
@@ -61,4 +77,4 @@
   border-right: 5px solid transparent;
   border-top: 5px solid blue;
   margin-right: 10px;
-}
+} */

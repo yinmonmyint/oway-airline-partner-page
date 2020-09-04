@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./nav-bar-list.css";
+import { Button } from "antd";
+import { Affix } from "antd";
+
 
 class NavBarList extends Component {
   constructor(props) {
@@ -46,7 +49,9 @@ class NavBarList extends Component {
   render() {
     return (
       <div className="reactcomp-anchor-nav">
+
         <div className="nav-bar-box">
+        <Affix offsetTop={0} onChange={affixed => console.log(affixed)}>
           <nav
             className={
               this.state.isFaq ||
@@ -65,10 +70,13 @@ class NavBarList extends Component {
                   this.changeOverview();
                 }}
               >
+              
                 <a href="#overview" className="nav-bar-href">
-                  <div className="nav-bar-gap-wrapper">
-                    <span className="nav-text">Overview</span>
-                  </div>
+                  <span className="nav-bar-gap-wrapper">
+                    <Button type="primary" shape="round">
+                      Overview
+                    </Button>
+                  </span>
                 </a>
               </li>
               <li
@@ -80,9 +88,11 @@ class NavBarList extends Component {
                 }}
               >
                 <a href="#faq" className="nav-bar-href">
-                  <div className="nav-bar-gap-wrapper">
-                    <span className="nav-text">FAQ</span>
-                  </div>
+                  <span className="nav-bar-gap-wrapper">
+                    <Button type="primary" shape="round">
+                      FAQ
+                    </Button>
+                  </span>
                 </a>
               </li>
               <li
@@ -94,9 +104,11 @@ class NavBarList extends Component {
                 }}
               >
                 <a href="#promotion" className="nav-bar-href">
-                  <div className="nav-bar-gap-wrapper">
-                    <span className="nav-text">Promotion</span>
-                  </div>
+                  <span className="nav-bar-gap-wrapper">
+                    <Button type="primary" shape="round">
+                      Promotion
+                    </Button>
+                  </span>
                 </a>
               </li>
               <li
@@ -108,15 +120,18 @@ class NavBarList extends Component {
                 }}
               >
                 <a href="#destination" className="nav-bar-href">
-                  <div className="nav-bar-gap-wrapper">
-                    <span className="nav-text">Popular Destination</span>
-                  </div>
-                </a>
+                  <span className="nav-bar-gap-wrapper">
+                    <Button type="primary" shape="round">
+                      Popular destination
+                    </Button>
+                  </span>
+                </a>              
               </li>
             </ul>
-          </nav>
+          </nav>        
+          </Affix>
         </div>
-      </div>
+       </div>
     );
   }
 }

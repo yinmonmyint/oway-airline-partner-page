@@ -1,5 +1,6 @@
 .notactive{
   overflow: hidden;
+  height: 60px;
   opacity: 1;
   border-radius: 5px;
   background-color: white;
@@ -26,7 +27,7 @@
   color: black;
   font-weight: bold;
 }
-.isactive  .answer {
+.isactive,.notactive .answer {
   padding: 20px;
   padding-top: 0;
   text-align: justify;
@@ -57,4 +58,7 @@
   transform: rotate(45deg);
   margin-right: 10px;
   margin-top: 6px;
+}
+.ques-and-ans-collapse{
+  border-radius: 10px;
 }

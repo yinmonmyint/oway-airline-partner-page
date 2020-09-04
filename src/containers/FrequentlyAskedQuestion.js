@@ -18,7 +18,7 @@ class FrequentlyAskedQuestion extends Component {
               {this.props.faq && this.props.faq.name}
             </div>
             <div className="askquestion">
-              <ul>
+               <ul>
                 {this.props.faq &&
                   this.props.faq.qa.map((item, index) => (
                     <QuestionAndAnswer
@@ -27,10 +27,9 @@ class FrequentlyAskedQuestion extends Component {
                       name={index}
                       call={(name) => this.setState({ currentValue: name })}
                       currentValue={this.state.currentValue}
-                      height={this.state.height}
                     />
                   ))}
-              </ul>
+              </ul> 
             </div>
           </div>
         </div>

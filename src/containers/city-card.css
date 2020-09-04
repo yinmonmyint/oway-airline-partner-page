@@ -1,20 +1,22 @@
-.city-card {
-  padding-left: 8px;
-  padding-right: 8px;
+.city-card{
+  border: 0;
+  height: 350px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-.city-card .city-image {
+.city-card img{
   height: 290px;
   border-radius: 10px;
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  transition: 0.3s all ease-in;
-}
-.city-card:hover .city-image {
-  transition: 0.3s all ease-out;
-  background-size: 110% 110%;
   cursor: pointer;
+  transition: 0.3s all ease-in;
+  /* background: 100% 100%; */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+}
+.city-card:hover img{
+  transition: 0.3s all ease-out; 
   box-shadow: 0 5px 10px rgba(0,0,0,0.28);
+  /* background: 110% 110%; */
 }
 .city-card .title-city {
   font-size: 15px;

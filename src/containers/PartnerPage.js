@@ -20,7 +20,7 @@ class PartnerPage extends Component {
   }
   componentDidMount() {
     const urlParam = this.props.match.params.partnerName;
-    const result = partners.filter((partner) => partner.keyword == urlParam);
+    const result = partners.filter((partner) => partner.keyword === urlParam);
     this.setState(result[0]);
   }
   render() {
